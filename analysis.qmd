@@ -1,3 +1,12 @@
 ---
 title: "Movie Analysis"
+execute:
+  echo: false
 ---
+
+```{r}
+#| message: false
+library(tidyverse)
+
+movies <- read_csv("data/movies.csv")
+```
